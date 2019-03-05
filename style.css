@@ -12,13 +12,6 @@ body {
 
 /* general */
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
-
 h1,
 h2,
 h3 {
@@ -95,7 +88,7 @@ nav {
   margin-top: 25px;
 }
 
-nav a {
+#navbar a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -103,10 +96,10 @@ nav a {
   line-height: 18px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 1px solid #4aaaa5;
 }
 
-nav a:first-child {
+#navbar a:first-child {
   border-left: 0 none;
 }
 
@@ -146,8 +139,8 @@ img {
   clear: both;
   margin: 30px 50px 70px;
   padding-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 500px;
   background-color: tan;
 }
@@ -258,6 +251,7 @@ input[type=submit] {
   body {  
     background: url("./Assets/Images/light_grey.png");
     }
+
 .wrapper{
   
   clear: both;
@@ -268,21 +262,7 @@ input[type=submit] {
   padding-bottom: 500px;
 }
  
-#main-section {
-  margin-top: 170px;
-  margin-right: 10;
-  margin-left: 10;
-  margin-bottom: 250px;
-  height: auto;
-  width: 644px;
-
-}
-.main-section {
-  width: 644px;
-  margin: 0;
-  }
-
-  #pro-pic, #egreet-pic, #ice-cream-pic{
+#pro-pic, #egreet-pic, #ice-cream-pic{
     height: auto;
     width: auto;
   }
@@ -300,10 +280,23 @@ input[type=submit] {
  .wrapper  {
    background-color: green;
     padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom:500px;
  } 
+
+ #logo {
+   margin-left: 50px;
+ }
+
+ #navbar {
+   margin-right: 50px;
+   margin-top: 30px;
+ }
+
+ #main-heading {
+  padding-left: 10px;
+ }
 
  #pro-pic, #egreet-pic, #ice-cream-pic{
   height: auto;
@@ -324,8 +317,8 @@ input[type=submit] {
 .wrapper {
   background-color: tan;
   padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 500px;
 }
 
