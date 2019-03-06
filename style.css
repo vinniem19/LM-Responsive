@@ -58,6 +58,7 @@ h3 {
 #logo {
 
   float: left;
+  margin-left:45px;
   
 }
 
@@ -82,6 +83,8 @@ h3 {
 #navbar{
 
   float: right;
+  margin-top:30px;
+  margin-right:35px;
 }
 
 nav {
@@ -288,7 +291,7 @@ input[type=submit] {
     height: auto;
     width: auto;
   }
-}
+
 
 #logo {
   margin-left: 50px;
@@ -303,7 +306,12 @@ input[type=submit] {
   padding-left: 10px;
   margin-top: 5px;
 }
-
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+}
 
 
 @media screen and (max-width: 768px) {
@@ -348,6 +356,12 @@ input[type=submit] {
   height: auto;
   width: auto;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -363,7 +377,7 @@ input[type=submit] {
 .wrapper {
   position: absolute;
   top: 25%;
-  width: 75%;
+  width: 90%;
   clear:both;
   background-color: white;
   padding-top: 5px;
